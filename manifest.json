@@ -1,0 +1,20 @@
+{
+	"name": "à la recherche du temps perdu",
+	"version": "1.1",
+	"manifest_version": 2,
+	"description": "à la recherche du temps perdu",
+	"icons": {"1": "icon/icon.png"},
+	"background": {
+		"persisten": false,
+		"scripts": [],
+		"page": "index_extensions.html"
+	},
+	"permissions": [],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"browser_action": {
+		"default_title": "à la recherche du temps perdu",
+		"default_icon": "icon/icon.png",
+		"default_popup": "index_extensions.html"
+	}
+}
+		
